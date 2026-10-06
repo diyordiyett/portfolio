@@ -1,6 +1,6 @@
 /* ============================================================
    PORTFOLIO CONTENT — edit THIS file only, then refresh.
-   Everything shown on index-lean.html comes from here.
+   Everything shown on index.html comes from here.
    - Change text by editing the values between quotes.
    - Add a project / skill group / nav link by copying a block.
    - Remove a nav link by deleting its line.
@@ -28,7 +28,7 @@ window.PORTFOLIO = {
   },
 
   /* Top navigation — delete a line to hide that link.
-     Each href must match a section id in index-lean.html
+     Each href must match a section id in index.html
      (#about, #skills, #projects, #contact, #home). */
   nav: [
     { label: "About", href: "#about" },

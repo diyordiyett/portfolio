@@ -1,15 +1,15 @@
 # portfolio-site
 
-A simple portfolio website in **two variants** — no build step, no dependencies:
+A simple portfolio website — no build step, no dependencies:
 
 | | File(s) | Best for | Size |
 | --- | --- | --- | --- |
-| **Full version** | [`index.html`](index.html) | Everything in one file, works without JavaScript | ~24 KB, 1 request (plus optional Google Fonts) |
-| **Lean version** | [`index-lean.html`](index-lean.html) + [`content.js`](content.js) | Smallest/fastest page + all content in **one data file** you edit | ~20 KB across 2 files, zero external resources |
+| **Main site** (what's served) | [`index.html`](index.html) + [`content.js`](content.js) | Editing all content in **one data file** — you never touch HTML | ~20 KB across 2 files, zero external resources |
+| **Single-file version** | [`index-full.html`](index-full.html) | Everything in one HTML file, works without JavaScript | ~24 KB, 1 request (plus optional Google Fonts) |
 
-> GitHub Pages serves `index.html` by default. To make the lean version the live one, rename them: `index.html` → `index-full.html` and `index-lean.html` → `index.html` (update the link in the lean version's `<noscript>` if you do).
+`index.html` is what the browser and GitHub Pages open by default — and its content comes entirely from `content.js`.
 
-## Editing the lean version (recommended for quick edits)
+## Editing your content — the only file you touch is `content.js`
 
 Open [`content.js`](content.js) — **that's the only file you need to touch.** It contains:
 
@@ -19,9 +19,9 @@ Open [`content.js`](content.js) — **that's the only file you need to touch.** 
 
 Save, refresh the browser, done. Copy a whole block to add a project/skill group/nav link; delete a `nav` line to hide a link.
 
-## Editing the full version
+## Editing the single-file version (`index-full.html`)
 
-Open [`index.html`](index.html) and search for the numbered comment blocks (`===== 1. THEME =====`, `===== 14. HERO =====`, etc.):
+Open [`index-full.html`](index-full.html) and search for the numbered comment blocks (`===== 1. THEME =====`, `===== 14. HERO =====`, etc.):
 
 | What you want to change | Section |
 | --- | --- |
@@ -41,7 +41,7 @@ Open [`index.html`](index.html) and search for the numbered comment blocks (`===
 - Double-click the HTML file, or
 - With the **Live Server** extension in VS Code: right-click → *Open with Live Server*.
 
-(The lean version must be opened via a server or directly from disk — either works, since `content.js` sits next to it.)
+(Both versions work opened straight from disk — `content.js` sits next to `index.html`.)
 
 ## Deploying (GitHub Pages)
 
@@ -55,7 +55,7 @@ All text (name "Alex Morgan", email, links, projects) is placeholder content —
 
 ## Key differences between the versions
 
-| | Full (`index.html`) | Lean (`index-lean.html`) |
+| | Single-file (`index-full.html`) | Main (`index.html`) |
 | --- | --- | --- |
 | Where to edit | Markup itself, guided by comments | `content.js` only |
 | Fonts | Google Fonts (optional) | System fonts (no network) |
