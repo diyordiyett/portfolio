@@ -117,8 +117,8 @@ window.PORTFOLIO = {
     text: "I'm currently available for freelance projects and full-time roles. Whether you have a question or just want to say hi, my inbox is always open — I'll get back to you as soon as I can.",
     buttons: [
       { label: "Say hello", href: "mailto:hello@alexmorgan.dev", style: "primary" },
-      { label: "GitHub", href: "https://github.com/yourusername", style: "outline" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/yourusername", style: "outline" }
+      { label: "GitHub", href: "https://github.com/yourusername", style: "outline" }
+      
     ]
   },
 
