@@ -1,35 +1,26 @@
 /* ============================================================
    PORTFOLIO CONTENT — edit THIS file only, then refresh.
-   Everything shown on index.html comes from here.
-   - Change text by editing the values between quotes.
-   - Add a project / skill group / nav link by copying a block.
-   - Remove a nav link by deleting its line.
    ============================================================ */
 
 window.PORTFOLIO = {
 
-  /* Colors — CSS variables. Change a value, refresh, done. */
   theme: {
-    "--bg": "#0e1014",               /* page background */
-    "--surface": "#161a21",          /* cards, menus */
-    "--border": "#2a3140",           /* borders */
-    "--text": "#e9ecf2",             /* main text */
-    "--muted": "#9aa3b2",            /* secondary text */
-    "--accent": "#6d8cff",           /* links, buttons, highlights */
-    "--accent-contrast": "#ffffff",  /* text on accent buttons */
-    "--radius": "12px"               /* card corner roundness */
+    "--bg": "#0e1014",
+    "--surface": "#161a21",
+    "--border": "#2a3140",
+    "--text": "#e9ecf2",
+    "--muted": "#9aa3b2",
+    "--accent": "#6d8cff",
+    "--accent-contrast": "#ffffff",
+    "--radius": "12px"
   },
 
-  /* Browser tab + SEO */
   site: {
-    title: "Georgene Lily — Portfolio",
-    description: "Portfolio of Georgene Lily, frontend developer and designer. Selected projects, skills and contact information.",
-    logo: "Georgene."
+    title: "[Your Name] — Developer & Technical Documenter",
+    description: "Portfolio of [Your Name], a frontend developer and technical documenter. Selected projects in React, full-stack, and Android, plus skills and contact information.",
+    logo: "[Your Name]."
   },
 
-  /* Top navigation — delete a line to hide that link.
-     Each href must match a section id in index.html
-     (#about, #skills, #projects, #contact, #home). */
   nav: [
     { label: "About", href: "#about" },
     { label: "Skills", href: "#skills" },
@@ -37,94 +28,95 @@ window.PORTFOLIO = {
     { label: "Contact", href: "#contact" }
   ],
 
-  /* Top of the page */
   hero: {
     eyebrow: "Hi, my name is",
-    name: "Georgette",
-    accent: ".",                    /* the colored part after the name */
-    subtitle: "I code sometimes.",
-    intro: "I'm a frontend developer based in Berlin who loves turning ideas into polished, user-friendly products. Below you'll find a selection of my work, the tools I use, and the best ways to reach me.",
+    name: "[Your Name]",
+    accent: ".",
+    subtitle: "Frontend developer & technical documenter.",
+    intro: "I build clean, responsive interfaces — and I document them properly. My work spans React front-ends, a full-stack recipe app, and a native Android trivia game, backed by SRS writing, requirements traceability, and UAT testing. Below you'll find selected projects, the tools I use, and how to reach me.",
     buttons: [
       { label: "View my work", href: "#projects", style: "primary" },
       { label: "Get in touch", href: "#contact", style: "outline" }
     ]
   },
 
-  /* About — paragraphs and quick facts */
   about: {
     title: "A little about me",
     paragraphs: [
-      "I care about clean interfaces, sensible performance and code that's easy to maintain. Over the last few years I've worked with startups and agencies to ship marketing sites, dashboards and internal tools that people actually enjoy using.",
-      "When I'm not coding, you'll find me photographing city streets, contributing to open source, or exploring hiking trails with a camera in one hand and a coffee in the other."
+      "I care about clean interfaces and code that's easy to maintain — and I bring the same care to the documentation behind it. Across my capstone and course projects I've written Software Requirements Specifications, built requirements traceability matrices, and run user acceptance testing, while also shipping React front-ends, an Express + SQLite backend, and a native Android app.",
+      "I'm currently strengthening my cloud fundamentals through AWS Educate and Microsoft Learn, and I'm looking for internships or entry-level roles that combine frontend development with solid technical documentation and QA."
     ],
     facts: [
-      { label: "Location", value: "Berlin, Germany" },
-      { label: "Experience", value: "4+ years" },
-      { label: "Availability", value: "Open to freelance" },
-      { label: "Email", value: "hello@alexmorgan.dev", href: "mailto:hello@alexmorgan.dev" }
+      { label: "Location", value: "[City, Country]" },
+      { label: "Focus", value: "Frontend & documentation" },
+      { label: "Availability", value: "Open to internships & entry-level roles" },
+      { label: "Email", value: "[you@example.com]", href: "mailto:you@example.com" }
     ]
   },
 
-  /* Skills — copy a whole { title, items } block to add a group */
   skills: {
-    title: "Tools I work with",
-    intro: "A snapshot of the technologies and disciplines I use every day.",
+    title: "Tools & skills",
+    intro: "A snapshot of the technologies, methods, and tools I use across development and documentation.",
     groups: [
-      { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS"] },
-      { title: "Backend & tools", items: ["Node.js", "REST APIs", "PostgreSQL", "Git", "Vite", "Docker"] },
-      { title: "Design & craft", items: ["Figma", "Responsive design", "Accessibility", "Performance", "SEO"] }
+      { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Responsive design"] },
+      { title: "Backend & data", items: ["Python", "Java", "Node.js", "Express", "MySQL", "MongoDB", "SQLite"] },
+      { title: "Documentation & QA", items: ["SRS writing", "Requirements traceability matrix", "UAT documentation", "Technical diagrams", "draw.io"] },
+      { title: "Tools & platforms", items: ["Git", "GitHub Desktop", "VS Code", "Android Studio", "Vercel", "Render", "MS Office"] },
+      { title: "Cloud & learning", items: ["AWS Educate — Cloud 101", "Azure App Service", "AD DS & Group Policy", "Windows Server", "Network security"] }
     ]
   },
 
-  /* Projects — copy a whole { ... } block to add another project */
   projects: {
     title: "Selected work",
-    intro: "A few things I've designed and built recently.",
+    intro: "Projects I've designed, built, and documented over the past two years.",
     items: [
       {
-        title: "Nova Dashboard",
-        description: "A real-time analytics dashboard for SaaS teams with custom charts, role-based access and a dark mode that doesn't hurt the eyes.",
-        tags: ["React", "TypeScript", "D3.js"],
+        title: "Curatering",
+        description: "Role: Documenter · October 2026. Authored the capstone manuscript and Software Requirements Specification, defining functional requirements and technical diagrams. Built a requirements traceability matrix mapping each requirement to its diagram and test case to track design and test coverage, and documented the UAT survey and results presented at the panel defense.",
+        tags: ["SRS", "Requirements traceability", "UAT", "draw.io"],
         links: [
-          { label: "Live demo", url: "https://example.com" },
-          { label: "Source code", url: "https://github.com/yourusername/project" }
+          { label: "Live site", url: "https://www.macrinas-kitchen.curatering.com" }
         ]
       },
       {
-        title: "Wanderlog",
-        description: "An offline-first travel planner that stores itineraries locally and syncs when you're back online. Installable as a progressive web app.",
-        tags: ["Vanilla JS", "PWA", "IndexedDB"],
+        title: "Bloomhouse",
+        description: "Role: Front-End Developer · October 2025. Designed the user interface for a conceptual flower shop using React and Tailwind CSS, without backend functionality. Built a responsive hero section and featured-arrangements gallery, using Tailwind utility classes for CSS Grid, Flexbox, spacing, and typography.",
+        tags: ["React", "Tailwind CSS", "Responsive design"],
         links: [
-          { label: "Live demo", url: "https://example.com" },
-          { label: "Source code", url: "https://github.com/yourusername/project" }
+          { label: "Live site", url: "https://bloomhouse-ph.vercel.app" }
         ]
       },
       {
-        title: "Brewfinder",
-        description: "A fast, searchable directory of specialty coffee shops with map views, filters and reviews contributed by the community.",
-        tags: ["Eleventy", "CSS", "Mapbox"],
+        title: "The Dirty Kitchen",
+        description: "Role: Documenter & Programmer · September 2024. Developed and revised a full-stack recipe discovery app: improved React front-end routing, recipe search and filtering, and custom styling; updated the Express and SQLite comment backend and the Vercel + Render deployment setup.",
+        tags: ["React", "Express", "SQLite", "Vercel", "Render"],
         links: [
-          { label: "Live demo", url: "https://example.com" },
-          { label: "Source code", url: "https://github.com/yourusername/project" }
+          { label: "Live site", url: "https://the-dirty-kitchen-concept.vercel.app" }
+        ]
+      },
+      {
+        title: "Curiosities",
+        description: "Role: Developer · March 2024. Built a native Android trivia app in Android Studio with categorized knowledge domains and custom UI themes. Used image-generation tools to create custom icons, splash screens, and trivia visuals for a cohesive interface.",
+        tags: ["Java", "Android Studio", "UI design"],
+        links: [
+          { label: "Download APK", url: "https://tinyurl.com/curiosities-apk" }
         ]
       }
     ]
   },
 
-  /* Contact — style is "primary" (filled) or "outline" */
   contact: {
     title: "Get in touch",
-    text: "I'm currently available for freelance projects and full-time roles. Whether you have a question or just want to say hi, my inbox is always open — I'll get back to you as soon as I can.",
+    text: "I'm currently open to internships, entry-level roles, and freelance work in frontend development, technical documentation, or QA. Whether you have a question or just want to say hi, my inbox is always open — I'll get back to you as soon as I can.",
     buttons: [
-      { label: "Say hello", href: "mailto:hello@alexmorgan.dev", style: "primary" },
+      { label: "Say hello", href: "mailto:you@example.com", style: "primary" },
       { label: "GitHub", href: "https://github.com/yourusername", style: "outline" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/yourusername", style: "outline" }
     ]
   },
 
-  /* Footer — the year is added automatically */
   footer: {
-    text: "Georgene Lily. Built with plain HTML, CSS and JavaScript.",
+    text: "[Your Name]. Built with plain HTML, CSS and JavaScript.",
     backToTop: "Back to top"
   }
 };
