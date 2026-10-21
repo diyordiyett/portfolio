@@ -22,9 +22,9 @@ window.PORTFOLIO = {
 
   /* Browser tab + SEO */
   site: {
-    title: "Alex Morgan — Portfolio",
-    description: "Portfolio of Alex Morgan, frontend developer and designer. Selected projects, skills and contact information.",
-    logo: "Alex."
+    title: "Georgette Tulod — Portfolio",
+    description: "Portfolio of Georgette Tulod, frontend developer and designer. Selected projects, skills and contact information.",
+    logo: "Georgette."
   },
 
   /* Top navigation — delete a line to hide that link.
@@ -40,7 +40,7 @@ window.PORTFOLIO = {
   /* Top of the page */
   hero: {
     eyebrow: "Hi, my name is",
-    name: "Alex Morgan",
+    name: "Georgette Tulod",
     accent: ".",                    /* the colored part after the name */
     subtitle: "I build fast, accessible websites for the web.",
     intro: "I'm a frontend developer based in Berlin who loves turning ideas into polished, user-friendly products. Below you'll find a selection of my work, the tools I use, and the best ways to reach me.",
