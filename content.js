@@ -22,9 +22,9 @@ window.PORTFOLIO = {
 
   /* Browser tab + SEO */
   site: {
-    title: "Georgette Tulod — Portfolio",
-    description: "Portfolio of Georgette Tulod, frontend developer and designer. Selected projects, skills and contact information.",
-    logo: "Georgette."
+    title: "Georgene Lily — Portfolio",
+    description: "Portfolio of Georgene Lily, frontend developer and designer. Selected projects, skills and contact information.",
+    logo: "Georgene."
   },
 
   /* Top navigation — delete a line to hide that link.
@@ -40,9 +40,9 @@ window.PORTFOLIO = {
   /* Top of the page */
   hero: {
     eyebrow: "Hi, my name is",
-    name: "Georgette Tulod",
+    name: "Georgette",
     accent: ".",                    /* the colored part after the name */
-    subtitle: "I build fast, accessible websites for the web.",
+    subtitle: "I code sometimes.",
     intro: "I'm a frontend developer based in Berlin who loves turning ideas into polished, user-friendly products. Below you'll find a selection of my work, the tools I use, and the best ways to reach me.",
     buttons: [
       { label: "View my work", href: "#projects", style: "primary" },
@@ -124,7 +124,7 @@ window.PORTFOLIO = {
 
   /* Footer — the year is added automatically */
   footer: {
-    text: "Alex Morgan. Built with plain HTML, CSS and JavaScript.",
+    text: "Georgene Lily. Built with plain HTML, CSS and JavaScript.",
     backToTop: "Back to top"
   }
 };
