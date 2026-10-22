@@ -42,7 +42,6 @@ window.PORTFOLIO = {
   about: {
     facts: [
       { label: "Location", value: "Makati, Philippines" },
-      { label: "Focus", value: "Frontend & documentation" },
       { label: "Availability", value: "Open to internships & entry-level roles" },
       { label: "Email", value: "real.gette13@gmail.com", href: "mailto:real.gette13@gmail.com" }
     ]
