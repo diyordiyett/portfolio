@@ -1,4 +1,4 @@
-# portfolio-site
+# portfolio
 
 A static portfolio site. 
 - `index.html` + `content.js` — the main site. All content lives in `content.js`.
