@@ -18,7 +18,7 @@ window.PORTFOLIO = {
   site: {
     title: "Georgette's Site",
     description: "Portfolio of Georgette.",
-    logo: "Georgette."
+    logo: "Georgette Tulod."
   },
 
   nav: [
