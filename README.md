@@ -20,5 +20,3 @@ Double-click `index.html`, or use VS Code's Live Server extension.
 1. Push the repo to GitHub.
 2. **Settings → Pages → Deploy from a branch → `main` / root → Save**.
 3. Site goes live at `https://<username>.github.io/<repo>/` (or `https://<username>.github.io` if the repo is named `<username>.github.io`).
-
-404? Check that `index.html` is in the root of `main` and wait a minute for the build.
