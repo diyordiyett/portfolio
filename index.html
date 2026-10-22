@@ -32,7 +32,7 @@
     html { scroll-behavior: smooth; }
 
     body {
-      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font: 16px/1.7 ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
       -webkit-font-smoothing: antialiased;
@@ -370,7 +370,7 @@
       $("projectsGrid").innerHTML = (data.projects.items || []).map(function (p) {
         var links = (p.links || []).map(function (l) {
           return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' +
-            esc(l.label) + " &#8599;</a>";
+            esc(l.label) + " &#8594;</a>";
         }).join("");
         return '<article class="project-card"><h3>' + esc(p.title) + "</h3><p>" + esc(p.description) +
           "</p>" + pills(p.tags) + '<div class="links">' + links + "</div></article>";

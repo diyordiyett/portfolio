@@ -10,15 +10,15 @@ window.PORTFOLIO = {
     "--border": "#2a3140",
     "--text": "#ffffff",
     "--muted": "#9aa3b2",
-    "--accent": "#00595c",
+    "--accent": "#009ba0",
     "--accent-contrast": "#ffffff",
     "--radius": "12px"
   },
 
   site: {
-    title: "[Your Name] — Developer & Technical Documenter",
-    description: "Portfolio of [Your Name], a frontend developer and technical documenter. Selected projects in React, full-stack, and Android, plus skills and contact information.",
-    logo: "[Your Name]."
+    title: "Georgette's Site",
+    description: "Portfolio of Georgette.",
+    logo: "Georgette."
   },
 
   nav: [
@@ -29,10 +29,10 @@ window.PORTFOLIO = {
 
   hero: {
     eyebrow: "Hi, my name is",
-    name: "[Your Name]",
+    name: "Georgette",
     accent: ".",
-    subtitle: "Frontend developer & technical documenter.",
-    intro: "I build clean, responsive interfaces — and I document them properly. My work spans React front-ends, a full-stack recipe app, and a native Android trivia game, backed by SRS writing, requirements traceability, and UAT testing. Below you'll find selected projects, the tools I use, and how to reach me.",
+    subtitle: "I code sometimes.",
+    intro: "IT student who ended up on the documentation side of a capstone and stayed there: SRS, traceability matrix, UAT cases. I'm interested in how systems are supposed to work, not just how they get built. Careful, adapatable, and open to internships and entry-level roles across development, documentation, QA, analysis, and support.",
     buttons: [
       { label: "View my work", href: "#projects", style: "primary" },
       { label: "Get in touch", href: "#contact", style: "outline" }
@@ -41,22 +41,22 @@ window.PORTFOLIO = {
 
   about: {
     facts: [
-      { label: "Location", value: "[City, Country]" },
+      { label: "Location", value: "Makati, Philippines" },
       { label: "Focus", value: "Frontend & documentation" },
       { label: "Availability", value: "Open to internships & entry-level roles" },
-      { label: "Email", value: "[you@example.com]", href: "mailto:you@example.com" }
+      { label: "Email", value: "real.gette13@gmail.com", href: "mailto:real.gette13@gmail.com" }
     ]
   },
 
   skills: {
-    title: "Tools & skills",
-    intro: "A snapshot of the technologies, methods, and tools I use across development and documentation.",
+    title: "Skills & Interests",
+    intro: "Tools and methods I've worked with across projects and coursework.",
     groups: [
-      { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Responsive design"] },
-      { title: "Backend & data", items: ["Python", "Java", "Node.js", "Express", "MySQL", "MongoDB", "SQLite"] },
-      { title: "Documentation & QA", items: ["SRS writing", "Requirements traceability matrix", "UAT documentation", "Technical diagrams", "draw.io"] },
-      { title: "Tools & platforms", items: ["Git", "GitHub Desktop", "VS Code", "Android Studio", "Vercel", "Render", "MS Office"] },
-      { title: "Cloud & learning", items: ["AWS Educate — Cloud 101", "Azure App Service", "AD DS & Group Policy", "Windows Server", "Network security"] }
+      { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "TypeScript (learning)", "Figma"] },
+      { title: "Backend & data", items: ["Python", "Java", "Node.js", "Express", "MySQL", "MongoDB", "SQLite", "Postman", "Spring Boot", "NetBeans"] },
+      { title: "Documentation", items: ["SRS writing", "Requirements traceability (RTM)", "UAT documentation", "Markdown (docs-as-code)"] },
+      { title: "Tools & build", items: ["Git", "VS Code", "Prettier", "Android Studio", "Vercel", "Render"] },
+      { title: "Online courses & badges", items: ["AWS Educate: Introduction to Cloud 101 (2026)", "Microsoft Learn: AD DS, Group Policy, WS administration, network security, Azure App Service (2025)"] }
     ]
   },
 
@@ -66,7 +66,7 @@ window.PORTFOLIO = {
     items: [
       {
         title: "Curatering",
-        description: "Role: Documenter · October 2026. Authored the capstone manuscript and Software Requirements Specification, defining functional requirements and technical diagrams. Built a requirements traceability matrix mapping each requirement to its diagram and test case to track design and test coverage, and documented the UAT survey and results presented at the panel defense.",
+        description: "Documenter · October 2026. Authored the capstone manuscript and SRS, built a requirements traceability matrix, and documented UAT results for panel defense.",
         tags: ["SRS", "Requirements traceability", "UAT", "draw.io"],
         links: [
           { label: "Live site", url: "https://www.macrinas-kitchen.curatering.com" }
@@ -74,7 +74,7 @@ window.PORTFOLIO = {
       },
       {
         title: "Bloomhouse",
-        description: "Role: Front-End Developer · October 2025. Designed the user interface for a conceptual flower shop using React and Tailwind CSS, without backend functionality. Built a responsive hero section and featured-arrangements gallery, using Tailwind utility classes for CSS Grid, Flexbox, spacing, and typography.",
+        description: "Front-End Developer · October 2025. Designed a conceptual flower shop UI in React and Tailwind CSS (frontend only), including a responsive hero and featured-arrangements gallery.",
         tags: ["React", "Tailwind CSS", "Responsive design"],
         links: [
           { label: "Live site", url: "https://bloomhouse-ph.vercel.app" }
@@ -82,7 +82,7 @@ window.PORTFOLIO = {
       },
       {
         title: "The Dirty Kitchen",
-        description: "Role: Documenter & Programmer · September 2024. Developed and revised a full-stack recipe discovery app: improved React front-end routing, recipe search and filtering, and custom styling; updated the Express and SQLite comment backend and the Vercel + Render deployment setup.",
+        description: "Documenter & Programmer · September 2024. Full-stack recipe discovery app with React search/filtering and an Express + SQLite backend.",
         tags: ["React", "Express", "SQLite", "Vercel", "Render"],
         links: [
           { label: "Live site", url: "https://the-dirty-kitchen-concept.vercel.app" }
@@ -90,7 +90,7 @@ window.PORTFOLIO = {
       },
       {
         title: "Curiosities",
-        description: "Role: Developer · March 2024. Built a native Android trivia app in Android Studio with categorized knowledge domains and custom UI themes. Used image-generation tools to create custom icons, splash screens, and trivia visuals for a cohesive interface.",
+        description: "Developer · March 2024. Built a native Android trivia app in Android Studio with categorized domains, custom UI themes, and AI-generated icons, splash screens, and visuals.",
         tags: ["Java", "Android Studio", "UI design"],
         links: [
           { label: "Download APK", url: "https://tinyurl.com/curiosities-apk" }
@@ -101,16 +101,16 @@ window.PORTFOLIO = {
 
   contact: {
     title: "Get in touch",
-    text: "I'm currently open to internships, entry-level roles, and freelance work in frontend development, technical documentation, or QA. Whether you have a question or just want to say hi, my inbox is always open — I'll get back to you as soon as I can.",
+    text: "Whether you have a question or just want to say hi, my inbox is always open. I'll get back to you as soon as I can.",
     buttons: [
-      { label: "Say hello", href: "mailto:you@example.com", style: "primary" },
-      { label: "GitHub", href: "https://github.com/yourusername", style: "outline" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/yourusername", style: "outline" }
+      { label: "Say hello", href: "mailto: real.gette13@gmail.com", style: "primary" },
+      { label: "GitHub", href: "https://github.com/diyordiyett", style: "outline" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/georgette-tulod/", style: "outline" }
     ]
   },
 
   footer: {
-    text: "[Your Name]. Built with plain HTML, CSS and JavaScript.",
+    text: "Georgette. Built with plain HTML, CSS and JavaScript.",
     backToTop: "Back to top"
   }
 };
