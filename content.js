@@ -5,12 +5,12 @@
 window.PORTFOLIO = {
 
   theme: {
-    "--bg": "#0e1014",
-    "--surface": "#161a21",
+    "--bg": "#1d2129",
+    "--surface": "#212c3f",
     "--border": "#2a3140",
-    "--text": "#e9ecf2",
+    "--text": "#ffffff",
     "--muted": "#9aa3b2",
-    "--accent": "#6d8cff",
+    "--accent": "#00595c",
     "--accent-contrast": "#ffffff",
     "--radius": "12px"
   },
@@ -22,9 +22,8 @@ window.PORTFOLIO = {
   },
 
   nav: [
-    { label: "About", href: "#about" },
-    { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
+    { label: "Skills", href: "#skills" },
     { label: "Contact", href: "#contact" }
   ],
 
@@ -41,11 +40,6 @@ window.PORTFOLIO = {
   },
 
   about: {
-    title: "A little about me",
-    paragraphs: [
-      "I care about clean interfaces and code that's easy to maintain — and I bring the same care to the documentation behind it. Across my capstone and course projects I've written Software Requirements Specifications, built requirements traceability matrices, and run user acceptance testing, while also shipping React front-ends, an Express + SQLite backend, and a native Android app.",
-      "I'm currently strengthening my cloud fundamentals through AWS Educate and Microsoft Learn, and I'm looking for internships or entry-level roles that combine frontend development with solid technical documentation and QA."
-    ],
     facts: [
       { label: "Location", value: "[City, Country]" },
       { label: "Focus", value: "Frontend & documentation" },
